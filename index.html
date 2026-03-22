@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body> <center>
+
+<h2>Registration Form</h2>
+
+<form action="login.html">
+    <input type="text" placeholder="Enter your Name" name="name" required><br><br>
+    <input type="email" placeholder="Enter your Email" name="email" required><br><br>
+    <input type="password" placeholder="Enter your Password" name="password" required><br><br>
+    <input type="password" placeholder="confirm Password" name="confirm password" required><br><br>
+
+    <div>
+        <input type="radio" id="gmale" value="male" name="gender">
+        <label for="gmale">Male</label>
+        <input type="radio" id="gfemale" value="female" name="gender">
+        <label for="gfemale">Female</label>
+        <input type="radio" id="gother" name="gender" value="other">
+        <label for="gother">Other</label><br><br>
+    
+    </div>
+
+    <div>
+    <select>
+        <option value="">Select your City</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="vijayawada">Vijayawada</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="chennai">Chennai</option>
+    </select><br><br>
+    </div>
+    <div>
+    <input type="date" name="dob"><br><br>
+    </div>
+    <div>
+    <label>Upload Profile:</label>
+    <input type="file" name="profile">
+    </div><br>
+
+<button>Submit</button> <br><br>
+    <a href="./login.html">Login Page</a>
+</form>
+</center>
+</body>
+</html>
